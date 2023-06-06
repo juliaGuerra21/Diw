@@ -1,0 +1,227 @@
+/* Definindo a cor de fundo e ocultando a barra de rolagem horizontal */
+body {
+  background-color: #A6B1E1;
+  overflow-x: hidden;
+}
+
+/* Definindo o estilo do logotipo */
+.logo {
+  max-height: 150px;
+  background-color: #DCD6F7;
+}
+
+/* Estilizando o elemento com o ID "nome" */
+#nome {
+  color: #A6B1E1;
+}
+
+/* Definindo uma cor de fundo personalizada */
+.custom-bg-color {
+  background-color: #DCD6F7;
+}
+
+/* Estilizando o botão "mycart" */
+.mycart {
+  width: 2.7em;
+  height: 45px;
+  margin-bottom: 1.2em;
+  margin-left: .5em;
+  background-color: #A6B1E1;
+  border-radius: 5px;
+  color: #A6B1E1;
+  padding: 5px;
+}
+
+/* Definindo o estilo de texto vermelho */
+.red-text {
+  color: #DCD6F7;
+}
+
+/* Estilizando o botão "mycart" quando o mouse passa por cima */
+.mycart:hover {
+  background-color: white;
+}
+
+/* Estilizando o formulário de pesquisa */
+.search-form {
+  margin-top: 0px;
+  height: 60px;
+  color: black;
+  padding-left: 400px;
+  background-color: #A6B1E1;
+}
+
+
+.search-input::placeholder {
+  color: #424874;
+}
+
+/* Estilizando o input de pesquisa */
+input[type="search"] {
+  padding: 5px;
+  border: 0px solid #ffffff;
+  border-radius: 4px;
+  width: 600px;
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Estilizando o botão de submit do formulário de pesquisa */
+button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+/* Definindo a cor do ícone do botão de submit */
+button[type="submit"] i {
+  color: #424874;
+}
+
+/* Estilizando o botão de submit do formulário de pesquisa quando o mouse passa por cima */
+button[type="submit"]:hover {
+  background-color: white;
+}
+
+/* Estilizando o elemento com a classe "search2" */
+.search2 {
+  width: 5em;
+  height: 2em;
+  background-color: #DCD6F7;
+  color: #DCD6F7;
+}
+
+/* Estilizando o elemento com a classe "MostReviwed" */
+.MostReviwed {
+  width: 25%;
+  float: left;
+}
+
+/* Estilizando o elemento com a classe "carrin" */
+.carrin {
+  padding-top: 0px;
+  padding-left: 1300px;
+  top: 100px;
+  left: 0px;
+  display: flex;
+}
+
+/* Definindo a cor personalizada */
+.custom-color {
+  color: #DCD6F7;
+}
+
+/* Estilizando o rodapé */
+.custom-color2 {
+  color: #A6B1E1;
+  font-weight: bold;
+}
+
+/*  rodapé */
+.custom-color3 {
+  color: #A6B1E1;
+  list-style: none;
+}
+
+
+.border-secondary.mt-3 {
+  background-color: #A6B1E1;
+  text-align: center;
+}
+
+/* Definindo a cor personalizada */
+.custom-color4 {
+  color: black;
+  font-weight: bold;
+}
+
+
+.list-group a {
+  text-decoration: none;
+}
+
+
+.card-bottles {
+  width: 10em;
+}
+
+.description-card {
+  font-size: 12px;
+}
+
+
+.mostreviewed-img {
+  align-items: center;
+  max-width: 200px;
+}
+
+
+.border-secondary.mt-3 {
+  background-color: #DCD6F7;
+}
+
+
+.input-news {
+  width: 9em;
+  height: 1.5em;
+}
+
+
+.carousel-item {
+  max-height: 330px;
+}
+
+
+.quick .most {
+  display: flex;
+  padding: 20px;
+}
+
+
+.footer {
+  background-color: #DCD6F7;
+  margin-top: 40px;
+}
+
+
+.icones {
+  display: block;
+}
+
+
+/* Barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #DCD6F7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #DCD6F7;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #A6B1E1;
+}
+
+/* Media Query */
+/* Ocultando o elemento com o ID "nome" em telas menores que 767px */
+@media only screen and (max-width: 767px) {
+  #nome {
+    display: none;
+  }
+
+  /* Centralizando o logotipo */
+  .logo {
+    position: center;
+  }
+
+  /* Ocultando a rolagem horizontal */
+  body {
+    overflow-x: hidden;
+  }
+}
